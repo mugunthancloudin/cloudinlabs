@@ -52,7 +52,7 @@ export default function Service() {
                         AI-powered robotic automation.
                       </p>
                       <a href="#" className="btn btn-primary">
-                        Go somewhere
+                      Read More
                       </a>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ export default function Service() {
                         core of your business strategy.4
                       </p>
                       <a href="#" className="btn btn-primary">
-                        Go somewhere
+                      Read More
                       </a>
                     </div>
                   </div>
@@ -96,7 +96,7 @@ export default function Service() {
                         AI-driven education and scientific discovery.
                       </p>
                       <a href="#" className="btn btn-primary">
-                        Go somewhere
+                      Read More
                       </a>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ export default function Service() {
                         analysis, shaping tomorrow's success today.
                       </p>
                       <a href="#" className="btn btn-primary">
-                        Go somewhere
+                      Read More
                       </a>
                     </div>
                   </div>
