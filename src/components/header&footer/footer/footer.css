@@ -1,0 +1,42 @@
+.footerSection {
+  background-image: url("../../../assets/footer/footer-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.circles {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  display: inline-block;
+  background-color: transparent;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circles:hover {
+  transform: translateY(-5px);
+  background-color: #007bff; /* Change this to your desired hover background color */
+}
+
+.socialIcon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footerfaIcon{
+    color: rgb(43,224,247); 
+    margin-right: 10px;
+}
+
+.copyright{
+    border-top: 2px solid;
+    text-align: center;
+    
+}

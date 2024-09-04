@@ -1,0 +1,68 @@
+.service-section {
+  background-color: #eafcfe;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.serviceH5 {
+  color: rgb(49, 225, 247);
+  margin-top: 20%;
+}
+
+.serviceH2 {
+  font-weight: 700;
+}
+
+.serviceP {
+  font-style: italic;
+}
+
+.service-section .service_contentbox .service-box {
+  background: white;
+  border-radius: 30px;
+  border-bottom: 2px solid #249cb3;
+}
+
+.service-section .service_contentbox .service-box :hover {
+  background-color: #249cb3;
+}
+
+.card-img-top {
+  width: 70px;
+  height: 70px;
+}
+
+.service-reboticon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #249cb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.serviceCard {
+  border-radius: 30px;
+  text-align: center;
+  border-bottom: 2px solid #249cb3;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.serviceCard:hover {
+  background-color: #249cb3;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.serviceContent{
+  background-image: url("../../../assets/service/service-image.png");
+  /* width: 120%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

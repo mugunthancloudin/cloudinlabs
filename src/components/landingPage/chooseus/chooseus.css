@@ -1,0 +1,43 @@
+.chooseBg {
+  background-image: url(../../../assets/choose/choose-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.circle {
+  background-image: linear-gradient(
+    to right,
+    #082e45 0%,
+    #17677e 51%,
+    #249cb3 100%
+  );
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 12px;
+  margin-left: 0;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.sideshape {
+  width: 100%;
+}
+
+.choose_sideshape {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.choose_content{
+    margin-top:40%;
+}
+
+.chooseH5{
+    color: #249cb3;
+}
