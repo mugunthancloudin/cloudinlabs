@@ -204,7 +204,7 @@ export default function Footer() {
           <div className="row ">
             <div className="col-12">
               <p className="mt-3 text-white">
-                Copyright 2023, Artelligence.com All Rights Reserved.
+                Copyright 2024, Artelligence.com All Rights Reserved.
               </p>
             </div>
           </div>
