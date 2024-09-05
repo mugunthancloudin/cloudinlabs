@@ -1,0 +1,42 @@
+.breadcrumb {
+    background-color: transparent;
+    margin-bottom: 1rem;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+  }
+  
+  .breadcrumb-item > a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+    color: #6c757d;
+  }
+  
+  .sub-banner {
+    background: url(../../../assets/breadcurms/sub-bannerbackgroung.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+}
+
+.banner_content{
+    padding-left: 20%;
+    margin-top: 20%;
+    color: white;
+}
+
+.breadcrumbH1{
+    font-weight: 900;
+}
+
+.roboHand{
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 10%;
+}

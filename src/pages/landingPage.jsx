@@ -6,6 +6,8 @@ import Chooseus from "../components/landingPage/chooseus/chooseus";
 import Faq from "../components/landingPage/faq/faq";
 import Footer from "../components/header&footer/footer/footer";
 import Nav_bar from "../components/header&footer/header/header";
+import Breadcrumbs from "../components/landingPage/breadcrumb/breadcrumb";
+import Breadcurmbpage from "../components/landingPage/breadcrumb/breadcurmbpage";
 
 export default function LandingPage() {
   return (
@@ -16,6 +18,7 @@ export default function LandingPage() {
       <Service />
       <Chooseus />
       <Faq />
+      <Breadcurmbpage/>
       <Footer />
     </>
   );

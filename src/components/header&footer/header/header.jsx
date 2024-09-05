@@ -27,11 +27,11 @@ export default function Nav_bar() {
               
               <NavLink href="/" ><div className="glow-on-hover ">Home</div></NavLink>
 
-              <NavLink href="/"><div className="glow-on-hover">About Us</div></NavLink>
+              <NavLink href="/about_us"><div className="glow-on-hover">About Us</div></NavLink>
 
-              <NavLink href="/"><div className="glow-on-hover">Service</div></NavLink>
+              <NavLink href="/service"><div className="glow-on-hover">Service</div></NavLink>
 
-              <NavLink href="/"><div className="glow-on-hover">Contact US</div></NavLink>
+              <NavLink href="/contact_us"><div className="glow-on-hover">Contact US</div></NavLink>
             </Nav>
           </NavbarCollapse>
         </Container>

@@ -5,6 +5,9 @@ import "aos/dist/aos.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../node_modules//bootstrap/dist/css/bootstrap.css";
 import LandingPage from "./pages/landingPage";
+import ContactPage from "./pages/contactPage";
+import AboutPage from "./pages/aboutPage";
+import ServicePage from "./pages/servicePage";
 
 function App() {
   useEffect(() => {
@@ -18,6 +21,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about_us" element={<AboutPage />} />
+        <Route path="/service" element={<ServicePage/>} />
+        <Route path="/contact_us" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );
