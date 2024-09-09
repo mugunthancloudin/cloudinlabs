@@ -21,7 +21,7 @@ export default function Breadcurmbpage() {
     <>
       <div className="container-fluid sub-banner">
         <div className="container">
-          <div className="row">
+          <div className="row d-flex">
             <div className="col-lg-6">
               <div
                 className="banner_content aos-init aos-animate"
