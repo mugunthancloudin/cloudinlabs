@@ -2,7 +2,10 @@ import React from "react";
 import "./home.css";
 import bannerImg from "../../../assets/home/banner-image.png";
 
+
 export default function Home() {
+
+
   return (
     <>
       <div className="container-fluid homebg">

@@ -34,13 +34,13 @@ function Contact() {
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
           alert("Your message has been sent successfully!");
-        },
+        },   
         (err) => {
           console.log(err);
           
           console.log("FAILED...", err);
           alert("Failed to send message. Please try again.");
-        }
+        }    
       );
   };
 

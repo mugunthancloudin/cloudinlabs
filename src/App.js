@@ -8,6 +8,7 @@ import LandingPage from "./pages/landingPage";
 import ContactPage from "./pages/contactPage";
 import AboutPage from "./pages/aboutPage";
 import ServicePage from "./pages/servicePage";
+import Whatsapp from "./components/landingPage/whatsapp/whatsapp";
 
 function App() {
   useEffect(() => {
@@ -18,14 +19,18 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/about_us" element={<AboutPage />} />
-        <Route path="/service" element={<ServicePage/>} />
-        <Route path="/contact_us" element={<ContactPage />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      {" "}
+      <BrowserRouter>
+      <Whatsapp/>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about_us" element={<AboutPage />} />
+          <Route path="/service" element={<ServicePage />} />
+          <Route path="/contact_us" element={<ContactPage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -31,13 +31,13 @@ export default function About() {
                 <h2 className="aboutH2">
                   Empowering People <br></br> By Keeping Them Well
                 </h2>
-                <p className="text-size-18">
+                {/* <p className="text-size-18">
                   Repellendus autem ruibusdam et aut officiis debitis aut re
                   necessitatibus saepe eveniet ut et voluptates repudianda sint
                   et molestiae non recusandae. Itaque earum rerum hic tenetur a
                   sapiente delectus.
-                </p>
-                <div className="about-lowercontent">
+                </p> */}
+                <div className="about-lowercontent mt-5">
                   <div className="d-flex align-items-start">
                     <figure className="mb-0 icon">
                       <img
@@ -81,7 +81,7 @@ export default function About() {
                   </a>
                 </button> */}
 
-                <button className="learn-more">
+                <button className="learn-more mt-2">
                   <span className="circle" aria-hidden="true">
                     <span className="icon arrow"></span>
                   </span>
