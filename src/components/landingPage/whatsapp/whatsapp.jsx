@@ -1,7 +1,7 @@
 import React from "react";
 import "./whatsapp.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Lottie from "lottie-react";
 import roboScroll from "../../../assets/whatsapp/whatsappLotie.json";
 

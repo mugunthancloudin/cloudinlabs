@@ -66,3 +66,104 @@
   background-size: cover;
 
 }
+
+.serviceprovidedH1{
+  color: rgb(3,128,198);
+  font-family: "Rubik", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+.elementdivider{
+text-align: center;
+padding-block-start: 10px;
+padding-block-end: 10px;
+}
+
+.elementDividerSeprator{
+
+  text-align: center;
+padding-block-start: 10px;
+padding-block-end: 10px;
+color: blue;
+/* width: 19px;
+height: 10px;
+margin: 0 auto;
+color: rgb(3,128,198); */
+
+}
+
+.box-small-icon {
+  border: 1px solid #0a457c;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 4px 4px 4px 4px rgba(0.1, 0.1, 0.1, 5);
+}
+
+.box-small-icon i {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.icon-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background-color: #249cb3;
+
+}
+
+/*  */
+
+.icon-circle {
+  display: inline-block;
+  background-color: #007bff; /* Blue background */
+  border-radius: 50%; /* Makes it circular */
+  width: 60px; /* Set the size of the circle */
+  height: 60px;
+  display: flex; /* Use flexbox to center the content */
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin: 0 auto 15px auto;
+}
+
+.icon-circle i {
+  color: white; /* White icon color */
+  font-size: 24px; /* Icon size */
+  padding-top: 20%;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.icon-text p {
+  color: #555;
+}
